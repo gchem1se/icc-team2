@@ -1,0 +1,77 @@
+.navbar {
+    background-color: aqua;
+}
+
+body {
+    font-family: 'DM Sans', serif;
+    background-image: url("img/banner1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1, h2 {
+    font-family: 'DM Serif Display', serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.banner {
+    background-size: cover;
+    height: 50rem;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+.black-glass {
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.form-label {
+    color: black !important;
+}
+
+.title {
+    font-size: 4.5rem;
+}
+
+.subtitle {
+    font-family: "DM Sans", serif;
+    font-weight: bold;
+}
+
+.card-title {
+    font-size: 3rem;
+}
+
+.cont-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts-title {
+    font-size: 4.5rem
+}
+
+.bizplan-item {
+    font-family: "DM Display Serif", serif;
+}

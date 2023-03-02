@@ -1,0 +1,220 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ICC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="col-12 banner d-flex flex-column align-items-center justify-content-evenly">
+        <div class="p-4 black-glass d-flex col-11 col-lg-7 flex-column align-items-center justify-content-evenly">
+            <header class="header text-center d-flex mt-5 mb-5 flex-column align-items-center col-12">
+                <h1 class="title">Trace</h1>
+                <h3 class="subtitle">An innovative approach to anti-forgery</h3>
+            </header>
+            <div class="d-flex flex-column align-items-center">
+                <img class="w-75 mb-5" src="img/pic01.png">
+            </div>
+        </div>
+    </section>
+
+    <section class="d-flex align-items-center justify-content-center mb-5">
+        <div
+            class="col-10 card shadow rounded-4 d-flex flex-column flex-lg-row align-items-center justify-content-center">
+            <div
+                class="mt-5 mb-5 d-flex col-11 flex-column flex-lg-row align-items-center align-items-lg-start justify-content-center">
+                <div class="col-10 col-lg-6">
+                    <h2 class="card-title text-center text-lg-start">Vision</h2>
+                    <p class="fs-5">
+                        Al giorno d’oggi, il fenomeno della contraffazione dei prodotti di marca, specialmente quelli
+                        costosi, rappresenta una piaga sociale rilevante, che mette a rischio l’interesse di tutti quei
+                        brand che fanno profitto facendo leva, tra le altre cose, sulla fiducia che i clienti hanno in
+                        uno specifico brand. Il fatturato del mercato dei falsi viene sottratto ai brand e finanziano le
+                        organizzazioni criminali. La nostra proposta. L’idea che intendiamo presentare consiste in un
+                        sistema informatico basato sulla tecnologia blockchain e in particolare sul concetto di <b>Non
+                            Fungible Token (NFT).</b><br><br>
+                        Le soluzioni attualmente esistenti e quindi mantengono lunghissimi elenchi di dati presso i
+                        server del brand che memorizzano i codici identificativi, ad esempio, dei capi d’abbigliamento.
+                        Inoltre, non adempiono correttamente all’identificazione dei falsi che riportino codici
+                        duplicati. Un NFT identifica, per definizione, una sola istanza del prodotto;
+                        contemporaneamente, dopo l’acquisto, certifica il possesso in maniera sicura di quel prodotto da
+                        parte del cliente.
+                    </p>
+                </div>
+                <div class="cont-img col-12 col-lg-6">
+                    <img class="col-12" src="img/idea.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="d-flex align-items-center justify-content-center mb-5">
+        <div class="col-10 card rounded-4 d-flex flex-column flex-lg-row align-items-center justify-content-center">
+            <div
+                class="mt-5 mb-5 d-flex col-10 flex-column-reverse flex-lg-row align-items-center align-items-lg-start justify-content-center">
+                <div class="col-12 col-lg-6">
+                    <img class="col-12" src="img/graph1.png">
+                </div>
+                <div class="col-10 col-lg-6">
+                    <h2 class="card-title text-center text-lg-end">Cloud infrastructure</h2>
+                    <p class="fs-5">
+                        La nostra idea viene presentata nella forma di una web app destinata all’amministrazione e
+                        un’applicazione mobile per i consumatori. La soluzione proposta prevede l’utilizzo
+                        dell’ecosistema AWS.<br><br>
+                    <ul>
+                        <li>
+                            <b>Amazon Managed Blockchain</b>, che si occupa di creare la blockchain. Si è scelto di
+                            utilizzare la tecnologia open source Hyperledger Fabric e pertanto di hostare
+                            privatamente la
+                            blockchain.
+                        </li>
+                        <li>
+                            <b>Amazon API Gateway</b> per ricevere le chiamate API e indirizzarle dove
+                            serve.
+                        </li>
+                        <li>
+                            <b>Amazon S3</b> viene utilizzato per archiviare dati statici e momentaneamente la landing
+                            page.
+                        </li>
+                        <li>
+                            <b>Amazon RDS</b> è necessario per gestire i dati da archiviare su un canonico database
+                            centralizzato.
+                        </li>
+                        <li>
+                            <b>Route 53</b> è impiegato per instrada le richieste tramite i server DNS.
+                        </li>
+                        <li>
+                            <b>EC2</b> per l'hosting della webapp e dell’intelligenza del sistema
+                        </li>
+                        <li>
+                            <b>Load balancing e auto scaling</b> sono utilizzati per gestire dinamicamente il carico
+                            sull’infrastruttura.
+                        </li>
+                        <li>
+                            <b>Pinpoint</b> è necessario per organizzare l’invio delle email e tutte le informazioni
+                            necessarie
+                            allo scambio dei token.
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="d-flex align-items-center mb-4 justify-content-center">
+        <div class="col-10 card rounded-4 d-flex flex-column flex-lg-row align-items-center justify-content-center">
+            <div class="mt-5 d-flex col-10 flex-column align-items-center justify-content-center">
+                <div class="col-12">
+                    <h2 class="card-title text-center mb-5">Business plan</h2>
+                    <p class="fs-2">
+                        <h3 class="bizplan-item">Analisi di mercato</h3>
+                        Il target di riferimento per il nostro prodotto sono le aziende del settore Fashion &
+                        Luxury. La
+                        concorrenza è costituita principalmente da soluzioni basate su tecnologie di tracciabilità
+                        tradizionali, come codici QR e RFID, e pertanto non su blockchain.
+                        <br>
+                        <h3 class="bizplan-item">Prodotto</h3>
+                        La nostra soluzione è un sistema basato su blockchain per tenere traccia dell’autenticità
+                        dei
+                        prodotti venduti, al fine di ridurre il rischio di contraffazione e garantire la qualità
+                        degli
+                        acquisti.
+                        <br>
+                        <h3 class="bizplan-item">Marketing</h3>
+                        La nostra strategia di marketing si basa sulla creazione di partnership con aziende di
+                        Fashion &
+                        Luxury. I canali di marketing strategici sono sia fisici, cioè volantini e immagini
+                        pubblicitarie nei negozi mono-brand dell’azienda partner, che online, ovvero attraverso i
+                        canali
+                        di diffusione dell’informazione del partner stesso.
+                        <br>
+                        <h3 class="bizplan-item">Costi</h3>
+                        Il nostro piano finanziario per la realizzazione della closed beta riporta i seguenti costi.
+                        Anticipo 5k $, Costo mensile 5.6k$, annuale 72k$. 9% Amazon Managed Blockchain. 82% Amazon
+                        RDS.
+                        7% Amazon EC2. 2% altri costi. Vedi report completo.
+                        <br>
+                        <h3 class="bizplan-item">Rischi e opportunità</h3>
+                        I principali rischi per un’idea del genere sono rappresentati dalla possibile mancanza di
+                        apertura al cambiamento di certe aziende, restie all’idea di trasformare una struttura
+                        interna
+                        già definita a livello tecnologico (sistema centralizzato) e produttivo, nonché alle
+                        possibili
+                        ripercussioni sull’immagine pubblica che possono derivare dall’adozione del sistema
+                        blockchain
+                        (i clienti potrebbero ritenere erroneamente che l’azienda intenda immergersi nel mercato
+                        speculativo degli NFT e/o criptovalute, il che non rappresenta assolutamente il nostro
+                        obiettivo).
+                    </p>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <img class="col-11 align-self-center" src="img/roadmap1.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="col-12 banner d-flex flex-column align-items-center justify-content-evenly">
+        <div class="black-glass d-flex col-11 col-lg-7 flex-column align-items-center justify-content-evenly">
+            <header class="header d-flex mt-5 mb-5 flex-column align-items-center col-12">
+                <h1 class="contacts-title">Contact us</h1>
+            </header>
+            <form class="d-flex flex-column align-items-center col-12 col-lg-8">
+                <div class="row col-12 mb-2 row-cols-1 row-cols-lg-2">
+                    <div class="form-floating mb-3 col-6">
+                        <input class="form-control" id="floatingInput" placeholder="nome">
+                        <label class="ms-4 form-label" for="floatingInput">Nome</label>
+                    </div>
+
+                    <div class="form-floating col-6">
+                        <input class="form-control" id="floatingInput" placeholder="cognome">
+                        <label class="ms-4 form-label" for="floatingInput">Cognome</label>
+                    </div>
+                </div>
+                <div class="row col-12 mb-2">
+                    <div class="form-floating mb-3 col-12">
+                        <input type="email" class="form-control col-12" id="floatingInput" placeholder="email">
+                        <label class="ms-4 form-label" for="floatingInput">Email</label>
+                    </div>
+                </div>
+                <div class="row col-12 mb-2">
+                    <div class="form-floating mb-3 col-12">
+                        <input class="form-control col-12" id="floatingInput" placeholder="company">
+                        <label class="ms-4 form-label" for="floatingInput">Company</label>
+                    </div>
+                </div>
+                <div class="row col-12">
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here"
+                            id="floatingTextarea"></textarea>
+                        <label class="ms-4 mb-5 form-label" for="floatingTextarea">Messaggio</label>
+                    </div>
+                </div>
+
+                <div class="row col-12 mt-4">
+                    <div class="d-flex justify-content-center">
+                        <button type="button" id="submitForm"
+                            class="mt-5 mb-5 col-5 btn btn-lg bg-light text-bg-light ">Invia</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="home.js"></script>
+</body>
+
+</html>
