@@ -1,4 +1,4 @@
-# Trace - team 2
+# Innovation Cloud Challenge - Team 2
 ![Trace Logo](img/pic01.png)
 
 La soluzione del progetto illustrato dal presente repository è stata hostata attraverso l’ecosistema Amazon AWS. In particolare, è stato impiegato il 
